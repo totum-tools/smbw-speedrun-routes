@@ -4,48 +4,48 @@
   "version": "1.0",
   "author": "Abahbob",
   "game": {
-    "name": "Super Mario Bros. Wonder",
+    "name": "Super Mario Bros. smbw",
     "layers": {
       "w1": {
         "name": "w1",
-        "baseImagePath": "/maps/w1.png"
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w1.png"
       },
       "w2": {
         "name": "w2",
-        "baseImagePath": "/maps/w2.png"
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w2.png"
       },
       "w3": {
         "name": "w3",
-        "baseImagePath": "/maps/w3.png"
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w3.png"
       },
       "w4": {
         "name": "w4",
-        "baseImagePath": "/maps/w4.png"
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w4.png"
       },
       "w5": {
         "name": "w5",
-        "baseImagePath": "/maps/w5.png"
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w5.png"
       },
       "w6": {
         "name": "w6",
-        "baseImagePath": "/maps/w6.png"
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w6.png"
       },
       "hub": {
         "name": "hub",
-        "baseImagePath": "/maps/hub.png"
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/hub.png"
       },
       "special": {
         "name": "special",
-        "baseImagePath": "/maps/special.png"
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/special.png"
       }
     },
     "icons": {
-      "10coin": "https://raw.githubusercontent.com/totum-tools/wonder-speedrun-routes/master/icons/10coin.png",
-      "pipe": "https://raw.githubusercontent.com/totum-tools/wonder-speedrun-routes/master/icons/pipe.png",
-      "wonderflower": "https://raw.githubusercontent.com/totum-tools/wonder-speedrun-routes/master/icons/wonderflower.png",
-      "block": "https://raw.githubusercontent.com/totum-tools/wonder-speedrun-routes/master/icons/block.png",
-      "level": "https://raw.githubusercontent.com/totum-tools/wonder-speedrun-routes/master/icons/level.png",
-      "shop": "https://raw.githubusercontent.com/totum-tools/wonder-speedrun-routes/master/icons/shop.png"
+      "10coin": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/icons/10coin.png",
+      "pipe": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/icons/pipe.png",
+      "wonderflower": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/icons/wonderflower.png",
+      "block": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/icons/block.png",
+      "level": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/icons/level.png",
+      "shop": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/icons/shop.png"
     }
   },
   "branches": [],
