@@ -8,35 +8,138 @@
     "layers": {
       "w1": {
         "name": "w1",
-        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w1.png"
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w1.png",
+        "bounds": [
+          [-540, -960],
+          [540, 960]
+        ],
+        "rotation": 29,
+        "offset": [
+          38.5,
+          3.5,
+          30
+        ],
+        "distance": 500
       },
       "w2": {
         "name": "w2",
-        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w2.png"
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w2.png",
+        "bounds": [
+          [-540, -960],
+          [540, 960]
+        ],
+        "rotation": 45,
+        "offset": [
+          8,
+          24.5,
+          33
+        ],
+        "distance": 650
       },
       "w3": {
         "name": "w3",
-        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w3.png"
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w3.png",
+        "bounds": [
+          [-540, -960],
+          [540, 960]
+        ],
+        "rotation": 35,
+        "offset": [
+          0,
+          0,
+          -25
+        ],
+        "distance": 490
       },
       "w4": {
         "name": "w4",
-        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w4.png"
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w4.png",
+        "bounds": [
+          [-540, -960],
+          [540, 960]
+        ],
+        "rotation": 45,
+        "offset": [
+          348,
+          0,
+          185.5
+        ],
+        "distance": 400
       },
       "w5": {
         "name": "w5",
-        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w5.png"
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w5.png",
+        "bounds": [
+          [-540, -960],
+          [540, 960]
+        ],
+        "rotation": 30,
+        "offset": [
+          220,
+          -29,
+          19.5
+        ],
+        "distance": 450
       },
       "w6": {
         "name": "w6",
-        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w6.png"
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w6.png",
+        "bounds": [
+          [-540, -960],
+          [540, 960]
+        ],
+        "rotation": 10,
+        "offset": [
+          102.5,
+          -49,
+          22
+        ],
+        "distance": 550
+      },
+      "w7": {
+        "name": "w7",
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/w7.png",
+        "bounds": [
+          [-540, -960],
+          [540, 960]
+        ],
+        "rotation": 0,
+        "offset": [
+          350,
+          115.5,
+          339
+        ],
+        "distance": 400
       },
       "hub": {
         "name": "hub",
-        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/hub.png"
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/hub.png",
+        "bounds": [
+          [-540, -960],
+          [540, 960]
+        ],
+        "rotation": 40,
+        "offset": [
+          260,
+          3,
+          250
+        ],
+        "distance": 530
       },
       "special": {
         "name": "special",
-        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/special.png"
+        "baseImagePath": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/maps/special.png",
+        "bounds": [
+          [-540, -960],
+          [540, 960]
+        ],
+        "rotation": 35,
+        "offset": [
+          0,
+          32,
+          0
+        ],
+        "distance": 540
       }
     },
     "icons": {
@@ -50,9 +153,399 @@
   },
   "branches": [],
   "things": {
-    "Course10": {
-      "uid": "Course10",
-      "name": "Course10",
+    "Course018": {
+      "uid": "Course018",
+      "name": "Maw-Maw Mouthful",
+      "coordinates": {
+        "x": 283.0,
+        "y": -9.5,
+        "z": 297.5
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ShisetsuCourse510": {
+      "uid": "ShisetsuCourse510",
+      "name": "Angler Poplin's House",
+      "coordinates": {
+        "x": 217.5,
+        "y": 1.5,
+        "z": 237.0
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "poplin",
+      "isNativeObject": true
+    },
+    "Course056": {
+      "uid": "Course056",
+      "name": "Jewel-Block Cave",
+      "coordinates": {
+        "x": 300.5,
+        "y": 1.5,
+        "z": 207.0
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course012": {
+      "uid": "Course012",
+      "name": "Robbird Cove",
+      "coordinates": {
+        "x": 217.5,
+        "y": 1.5,
+        "z": 208.0
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course016": {
+      "uid": "Course016",
+      "name": "Downpour Uproar",
+      "coordinates": {
+        "x": 289.0,
+        "y": 1.5,
+        "z": 189.0
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ArenaCourse254": {
+      "uid": "ArenaCourse254",
+      "name": "KO Arena Petal Meddle",
+      "coordinates": {
+        "x": 222.5,
+        "y": -9.5,
+        "z": 306.5
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "RaceCourse201": {
+      "uid": "RaceCourse201",
+      "name": "Wiggler Race Swimming!",
+      "coordinates": {
+        "x": 269.5,
+        "y": 1.5,
+        "z": 178.5
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "BadgeCourse310": {
+      "uid": "BadgeCourse310",
+      "name": "Badge Challenge Dolphin Kick I",
+      "coordinates": {
+        "x": 223.5,
+        "y": 1.5,
+        "z": 225.0
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "BadgeCourse311": {
+      "uid": "BadgeCourse311",
+      "name": "Badge Challenge Dolphin Kick II",
+      "coordinates": {
+        "x": 259.0,
+        "y": 1.5,
+        "z": 189.0
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "BadgeCourse306": {
+      "uid": "BadgeCourse306",
+      "name": "Badge Challenge Boosting Spin Jump I",
+      "coordinates": {
+        "x": 252.5,
+        "y": -9.5,
+        "z": 311.5
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course014": {
+      "uid": "Course014",
+      "name": "Blewbird Roost",
+      "coordinates": {
+        "x": 228.5,
+        "y": 1.5,
+        "z": 194.0
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "OtakaraCourse460": {
+      "uid": "OtakaraCourse460",
+      "name": "Bonus: Coins Galore!",
+      "coordinates": {
+        "x": 95.0,
+        "y": 30.0,
+        "z": -2.0
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "AirshipCourse101": {
+      "uid": "AirshipCourse101",
+      "name": "Petal Isles Flying Battleship",
+      "coordinates": {
+        "x": 300.5,
+        "y": 1.5,
+        "z": 255.5
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course015": {
+      "uid": "Course015",
+      "name": "Leaping Smackerel",
+      "coordinates": {
+        "x": 211.0,
+        "y": 1.5,
+        "z": 223.5
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course017": {
+      "uid": "Course017",
+      "name": "Muncher Fields",
+      "coordinates": {
+        "x": 245.0,
+        "y": -9.5,
+        "z": 297.5
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "RaceCourse202": {
+      "uid": "RaceCourse202",
+      "name": "Wiggler Race Spelunking!",
+      "coordinates": {
+        "x": 217.5,
+        "y": -9.5,
+        "z": 282.0
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course019": {
+      "uid": "Course019",
+      "name": "Gnawsher Lair",
+      "coordinates": {
+        "x": 311.0,
+        "y": -9.5,
+        "z": 298.0
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "WorldMapNpcId02": {
+      "uid": "WorldMapNpcId02",
+      "name": "Badge Shop",
+      "coordinates": {
+        "x": 46.5,
+        "y": 2.5,
+        "z": -0.5
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "shop",
+      "isNativeObject": true
+    },
+    "WorldMapNpcId04": {
+      "uid": "WorldMapNpcId04",
+      "name": "Badge Shop",
+      "coordinates": {
+        "x": 11.5,
+        "y": 44.0,
+        "z": 79.0
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "shop",
+      "isNativeObject": true
+    },
+    "ChampionshipCourse850": {
+      "uid": "ChampionshipCourse850",
+      "name": "Pipe-Rock Plateau Special: Bounce, Bounce, Bounce",
+      "coordinates": {
+        "x": -40.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "layerId": "special",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ChampionshipCourse859": {
+      "uid": "ChampionshipCourse859",
+      "name": "The Final-Final Test: Badge Marathon",
+      "coordinates": {
+        "x": 0.0,
+        "y": 195.0,
+        "z": 52.5
+      },
+      "layerId": "special",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ChampionshipCourse851": {
+      "uid": "ChampionshipCourse851",
+      "name": "Fluff-Puff Peaks Special: Climb to the Beat",
+      "coordinates": {
+        "x": -29.0,
+        "y": 8.0,
+        "z": -36.0
+      },
+      "layerId": "special",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ShisetsuCourse590": {
+      "uid": "ShisetsuCourse590",
+      "name": "",
+      "coordinates": {
+        "x": 0.0,
+        "y": 195.0,
+        "z": 11.5
+      },
+      "layerId": "special",
+      "dependencyIds": [],
+      "type": "poplin",
+      "isNativeObject": true
+    },
+    "ChampionshipCourse852": {
+      "uid": "ChampionshipCourse852",
+      "name": "Shining Falls Special: Triple Threat Deluge",
+      "coordinates": {
+        "x": 29.0,
+        "y": 8.0,
+        "z": -36.0
+      },
+      "layerId": "special",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ChampionshipCourse853": {
+      "uid": "ChampionshipCourse853",
+      "name": "Sunbaked Desert Special: Pole Block Allure",
+      "coordinates": {
+        "x": 40.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "layerId": "special",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ChampionshipCourse854": {
+      "uid": "ChampionshipCourse854",
+      "name": "Fungi Mines Special: Dangerous Donut Ride",
+      "coordinates": {
+        "x": 28.5,
+        "y": 8.0,
+        "z": 30.0
+      },
+      "layerId": "special",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ChampionshipCourse855": {
+      "uid": "ChampionshipCourse855",
+      "name": "Deep Magma Bog Special: Solar Roller",
+      "coordinates": {
+        "x": -28.5,
+        "y": 8.0,
+        "z": 30.0
+      },
+      "layerId": "special",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ChampionshipCourse856": {
+      "uid": "ChampionshipCourse856",
+      "name": "Petal Isles Special: Way of the Goomba",
+      "coordinates": {
+        "x": 0.0,
+        "y": 10.0,
+        "z": 37.5
+      },
+      "layerId": "special",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ChampionshipCourse857": {
+      "uid": "ChampionshipCourse857",
+      "name": "The Semifinal Test: Piranha Plant Reprise",
+      "coordinates": {
+        "x": 0.0,
+        "y": 15.0,
+        "z": 3.0
+      },
+      "layerId": "special",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ChampionshipCourse858": {
+      "uid": "ChampionshipCourse858",
+      "name": "The Final Test: Wonder Gauntlet",
+      "coordinates": {
+        "x": 0.0,
+        "y": 105.5,
+        "z": 26.5
+      },
+      "layerId": "special",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course008": {
+      "uid": "Course008",
+      "name": "Angry Spikes and Sinkin' Pipes",
       "coordinates": {
         "x": 96.5,
         "y": -11.0,
@@ -60,12 +553,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course11": {
-      "uid": "Course11",
-      "name": "Course11",
+    "Course009": {
+      "uid": "Course009",
+      "name": "Bulrush Express",
       "coordinates": {
         "x": 82.5,
         "y": 5.5,
@@ -73,12 +566,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course12": {
-      "uid": "Course12",
-      "name": "Course12",
+    "Course006": {
+      "uid": "Course006",
+      "name": "Sproings in the Twilight Forest",
       "coordinates": {
         "x": 90.0,
         "y": 10.0,
@@ -86,12 +579,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course13": {
-      "uid": "Course13",
-      "name": "Course13",
+    "Course010": {
+      "uid": "Course010",
+      "name": "Cosmic Hoppos",
       "coordinates": {
         "x": 74.5,
         "y": 13.0,
@@ -99,12 +592,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course2": {
-      "uid": "Course2",
-      "name": "Course2",
+    "Course001": {
+      "uid": "Course001",
+      "name": "Welcome to the Flower Kingdom!",
       "coordinates": {
         "x": -28.5,
         "y": -0.25,
@@ -112,12 +605,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course20": {
-      "uid": "Course20",
-      "name": "Course20",
+    "BadgeCourse300": {
+      "uid": "BadgeCourse300",
+      "name": "Badge Challenge Parachute Cap I",
       "coordinates": {
         "x": 31.5,
         "y": 4.0,
@@ -125,12 +618,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course21": {
-      "uid": "Course21",
-      "name": "Course21",
+    "BadgeCourse304": {
+      "uid": "BadgeCourse304",
+      "name": "Badge Challenge Wall-Climb Jump I",
       "coordinates": {
         "x": 86.5,
         "y": -0.72937,
@@ -138,12 +631,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course22": {
-      "uid": "Course22",
-      "name": "Course22",
+    "BadgeCourse316": {
+      "uid": "BadgeCourse316",
+      "name": "Expert Badge Challenge Jet Run I",
       "coordinates": {
         "x": 79.0,
         "y": 18.5,
@@ -151,12 +644,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course3": {
-      "uid": "Course3",
-      "name": "Course3",
+    "Course002": {
+      "uid": "Course002",
+      "name": "Piranha Plants on Parade",
       "coordinates": {
         "x": -15.5,
         "y": 2.0,
@@ -164,12 +657,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course30": {
-      "uid": "Course30",
-      "name": "Course30",
+    "PalaceCourse150": {
+      "uid": "PalaceCourse150",
+      "name": "Pipe-Rock Plateau Palace",
       "coordinates": {
         "x": 96.5,
         "y": 3.0,
@@ -177,12 +670,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "palace",
       "isNativeObject": true
     },
-    "Course4": {
-      "uid": "Course4",
-      "name": "Course4",
+    "Course004": {
+      "uid": "Course004",
+      "name": "Scram, Skedaddlers!",
       "coordinates": {
         "x": -13.5,
         "y": 4.0,
@@ -190,12 +683,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course40": {
-      "uid": "Course40",
-      "name": "Course40",
+    "ArenaCourse250": {
+      "uid": "ArenaCourse250",
+      "name": "KO Arena Pipe-Rock Rumble",
       "coordinates": {
         "x": 93.0,
         "y": -11.0,
@@ -203,12 +696,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course5": {
-      "uid": "Course5",
-      "name": "Course5",
+    "Course005": {
+      "uid": "Course005",
+      "name": "Bulrush Coming Through!",
       "coordinates": {
         "x": 25.5,
         "y": 2.0,
@@ -216,12 +709,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course50": {
-      "uid": "Course50",
-      "name": "Course50",
+    "MiniCourse418": {
+      "uid": "MiniCourse418",
+      "name": "Break Time! Hurry, Hurry",
       "coordinates": {
         "x": 38.5,
         "y": 2.0,
@@ -229,12 +722,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course51": {
-      "uid": "Course51",
-      "name": "Course51",
+    "MiniCourse411": {
+      "uid": "MiniCourse411",
+      "name": "Break Time! Wonder Token Tunes",
       "coordinates": {
         "x": 41.0,
         "y": 1.5,
@@ -242,12 +735,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course52": {
-      "uid": "Course52",
-      "name": "Course52",
+    "MiniCourse400": {
+      "uid": "MiniCourse400",
+      "name": "Break Time! Pop Up, Hoppo!",
       "coordinates": {
         "x": 22.5,
         "y": 3.5,
@@ -255,12 +748,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course6": {
-      "uid": "Course6",
-      "name": "Course6",
+    "Course003": {
+      "uid": "Course003",
+      "name": "Here Come the Hoppos",
       "coordinates": {
         "x": 33.5,
         "y": 1.5,
@@ -268,12 +761,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course60": {
-      "uid": "Course60",
-      "name": "Course60",
+    "ShisetsuCourse500": {
+      "uid": "ShisetsuCourse500",
+      "name": "Badge House in Pipe-Rock Plateau",
       "coordinates": {
         "x": -1.0,
         "y": 2.0,
@@ -281,25 +774,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "poplin",
       "isNativeObject": true
     },
-    "Course65": {
-      "uid": "Course65",
-      "name": "Course65",
-      "coordinates": {
-        "x": 23.0,
-        "y": 2.0,
-        "z": 16.0
-      },
-      "layerId": "w1",
-      "dependencyIds": [],
-      "type": "Thing",
-      "isNativeObject": true
-    },
-    "Course7": {
-      "uid": "Course7",
-      "name": "Course7",
+    "RaceCourse200": {
+      "uid": "RaceCourse200",
+      "name": "Wiggler Race Mountaineering!",
       "coordinates": {
         "x": 61.0,
         "y": 2.0,
@@ -307,12 +787,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course8": {
-      "uid": "Course8",
-      "name": "Course8",
+    "Course013": {
+      "uid": "Course013",
+      "name": "Rolla Koopa Derby",
       "coordinates": {
         "x": 17.25,
         "y": 3.0,
@@ -320,12 +800,12 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
       "isNativeObject": true
     },
-    "Course9": {
-      "uid": "Course9",
-      "name": "Course9",
+    "Course007": {
+      "uid": "Course007",
+      "name": "Swamp Pipe Crawl",
       "coordinates": {
         "x": 83.5,
         "y": -11.5,
@@ -333,7 +813,1281 @@
       },
       "layerId": "w1",
       "dependencyIds": [],
-      "type": "Thing",
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course020": {
+      "uid": "Course020",
+      "name": "Pokipede Pass",
+      "coordinates": {
+        "x": -32.5,
+        "y": 33.0,
+        "z": 77.0
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course027": {
+      "uid": "Course027",
+      "name": "Jump! Jump! Jump!",
+      "coordinates": {
+        "x": 62.0,
+        "y": 49.5,
+        "z": 69.5
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "PalaceCourse151": {
+      "uid": "PalaceCourse151",
+      "name": "Fluff-Puff Peaks Palace",
+      "coordinates": {
+        "x": 8.5,
+        "y": 84.5,
+        "z": 13.0
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "palace",
+      "isNativeObject": true
+    },
+    "MiniCourse402": {
+      "uid": "MiniCourse402",
+      "name": "Break Time! Cloud Cover",
+      "coordinates": {
+        "x": 38.5,
+        "y": 53.5,
+        "z": 84.0
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "HirobaCourse450": {
+      "uid": "HirobaCourse450",
+      "name": "Search Party Puzzling Park",
+      "coordinates": {
+        "x": -16.5,
+        "y": 34.0,
+        "z": 74.0
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "MiniCourse403": {
+      "uid": "MiniCourse403",
+      "name": "Break Time! Zip-Go-Round",
+      "coordinates": {
+        "x": 1.5,
+        "y": 77.0,
+        "z": 27.5
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "MiniCourse401": {
+      "uid": "MiniCourse401",
+      "name": "Break Time! Kick It, Outmaway",
+      "coordinates": {
+        "x": -28.5,
+        "y": 33.0,
+        "z": 87.0
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "BadgeCourse302": {
+      "uid": "BadgeCourse302",
+      "name": "Badge Challenge Floating High Jump I",
+      "coordinates": {
+        "x": 34.5,
+        "y": 55.5,
+        "z": 62.0
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "AirshipCourse100": {
+      "uid": "AirshipCourse100",
+      "name": "Fluff-Puff Peaks Flying Battleship",
+      "coordinates": {
+        "x": 8.5,
+        "y": 68.5,
+        "z": 54.0
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course025": {
+      "uid": "Course025",
+      "name": "Condarts Away!",
+      "coordinates": {
+        "x": -6.0,
+        "y": 34.50001,
+        "z": 79.0
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ShisetsuCourse520": {
+      "uid": "ShisetsuCourse520",
+      "name": "Fluff-Puff Peaks Cabin",
+      "coordinates": {
+        "x": 18.0,
+        "y": 28.0,
+        "z": 89.0
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "poplin",
+      "isNativeObject": true
+    },
+    "Course022": {
+      "uid": "Course022",
+      "name": "Outmaway Valley",
+      "coordinates": {
+        "x": -20.0,
+        "y": 33.0,
+        "z": 95.0
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "BadgeCourse305": {
+      "uid": "BadgeCourse305",
+      "name": "Badge Challenge Wall-Climb Jump II",
+      "coordinates": {
+        "x": -26.0,
+        "y": 33.0,
+        "z": 70.5
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ArenaCourse251": {
+      "uid": "ArenaCourse251",
+      "name": "KO Arena Fluff-Puff Kerfuff",
+      "coordinates": {
+        "x": 44.0,
+        "y": 55.5,
+        "z": 61.5
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "BadgeCourse314": {
+      "uid": "BadgeCourse314",
+      "name": "Expert Badge Challenge Spring Feet I",
+      "coordinates": {
+        "x": 62.0,
+        "y": 55.5,
+        "z": 52.0
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course026": {
+      "uid": "Course026",
+      "name": "Cruising with Linking Lifts",
+      "coordinates": {
+        "x": 15.5,
+        "y": 77.0,
+        "z": 40.5
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course021": {
+      "uid": "Course021",
+      "name": "Up 'n' Down with Puffy Lifts",
+      "coordinates": {
+        "x": 23.5,
+        "y": 56.5,
+        "z": 65.5
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course024": {
+      "uid": "Course024",
+      "name": "Pole Block Passage",
+      "coordinates": {
+        "x": 47.0,
+        "y": 53.5,
+        "z": 85.0
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course023": {
+      "uid": "Course023",
+      "name": "Countdown to Drop Down",
+      "coordinates": {
+        "x": 1.5,
+        "y": 77.0,
+        "z": 40.5
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "WorldMapNpcId03": {
+      "uid": "WorldMapNpcId03",
+      "name": "Badge Shop",
+      "coordinates": {
+        "x": 175.0,
+        "y": -73.0,
+        "z": 11.0
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "shop",
+      "isNativeObject": true
+    },
+    "Course032": {
+      "uid": "Course032",
+      "name": "The Hoppycat Trial: Hop, Hop, and Awaaay",
+      "coordinates": {
+        "x": 11.0,
+        "y": 2.0,
+        "z": 22.5
+      },
+      "layerId": "w3",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course034": {
+      "uid": "Course034",
+      "name": "The Anglefish Trial: Ready, Aim, Fly!",
+      "coordinates": {
+        "x": 21.0,
+        "y": -2.0,
+        "z": -1.0
+      },
+      "layerId": "w3",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "BadgeCourse308": {
+      "uid": "BadgeCourse308",
+      "name": "POOF! Badge Challenge Crouching High Jump I",
+      "coordinates": {
+        "x": -9.5,
+        "y": 2.5,
+        "z": 18.0
+      },
+      "layerId": "w3",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course030": {
+      "uid": "Course030",
+      "name": "The Final Trial: Zip Track Dash",
+      "coordinates": {
+        "x": -2.0,
+        "y": 17.0,
+        "z": -38.0
+      },
+      "layerId": "w3",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "MiniCourse404": {
+      "uid": "MiniCourse404",
+      "name": "Break Time! Unreachable Treasure?",
+      "coordinates": {
+        "x": 7.5,
+        "y": 2.0,
+        "z": 16.5
+      },
+      "layerId": "w3",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "MiniCourse407": {
+      "uid": "MiniCourse407",
+      "name": "Break Time! Watery Wonder Tokens",
+      "coordinates": {
+        "x": 21.0,
+        "y": -2.0,
+        "z": -11.0
+      },
+      "layerId": "w3",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "MiniCourse405": {
+      "uid": "MiniCourse405",
+      "name": "Break Time! Timer-Switch Climb",
+      "coordinates": {
+        "x": -6.5,
+        "y": 16.0,
+        "z": -19.0
+      },
+      "layerId": "w3",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course035": {
+      "uid": "Course035",
+      "name": "The Sugarstar Trial: Across the Night Sky",
+      "coordinates": {
+        "x": 9.0,
+        "y": 16.0,
+        "z": -23.5
+      },
+      "layerId": "w3",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course031": {
+      "uid": "Course031",
+      "name": "The Midway Trial: Hop to It",
+      "coordinates": {
+        "x": -20.0,
+        "y": 5.5,
+        "z": 2.5
+      },
+      "layerId": "w3",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course033": {
+      "uid": "Course033",
+      "name": "The Sharp Trial: Launch to Victory",
+      "coordinates": {
+        "x": -13.0,
+        "y": 16.0,
+        "z": -23.5
+      },
+      "layerId": "w3",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ShisetsuCourse530": {
+      "uid": "ShisetsuCourse530",
+      "name": "Master Poplin's House",
+      "coordinates": {
+        "x": 2.5,
+        "y": 2.0,
+        "z": 45.0
+      },
+      "layerId": "w3",
+      "dependencyIds": [],
+      "type": "poplin",
+      "isNativeObject": true
+    },
+    "ShisetsuCourse531": {
+      "uid": "ShisetsuCourse531",
+      "name": "Royal Seed Mansion",
+      "coordinates": {
+        "x": -2.0,
+        "y": 34.5,
+        "z": -55.5
+      },
+      "layerId": "w3",
+      "dependencyIds": [],
+      "type": "poplin",
+      "isNativeObject": true
+    },
+    "HirobaCourse452": {
+      "uid": "HirobaCourse452",
+      "name": "Search Party An Empty Park?",
+      "coordinates": {
+        "x": -2.5,
+        "y": 2.0,
+        "z": 16.5
+      },
+      "layerId": "w3",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "MiniCourse406": {
+      "uid": "MiniCourse406",
+      "name": "Break Time! Timer-Switch Dash",
+      "coordinates": {
+        "x": 2.5,
+        "y": 16.0,
+        "z": -19.0
+      },
+      "layerId": "w3",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "WorldMapNpcId07": {
+      "uid": "WorldMapNpcId07",
+      "name": "Badge Shop",
+      "coordinates": {
+        "x": -3.0,
+        "y": 2.0,
+        "z": 28.0
+      },
+      "layerId": "w3",
+      "dependencyIds": [],
+      "type": "shop",
+      "isNativeObject": true
+    },
+    "Course038": {
+      "uid": "Course038",
+      "name": "The Desert Mystery",
+      "coordinates": {
+        "x": 394.3465,
+        "y": -2.5,
+        "z": 226.375
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course044": {
+      "uid": "Course044",
+      "name": "Flight of the Bloomps",
+      "coordinates": {
+        "x": 394.0,
+        "y": 10.5,
+        "z": 152.5
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ShisetsuCourse540": {
+      "uid": "ShisetsuCourse540",
+      "name": "Sunbaked Desert House",
+      "coordinates": {
+        "x": 284.5,
+        "y": -2.5,
+        "z": 205.5
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "poplin",
+      "isNativeObject": true
+    },
+    "MiniCourse408": {
+      "uid": "MiniCourse408",
+      "name": "Break Time! Floating Wonder Tokens",
+      "coordinates": {
+        "x": 321.5,
+        "y": 0.5,
+        "z": 164.0
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course040": {
+      "uid": "Course040",
+      "name": "Color-Switch Dungeon",
+      "coordinates": {
+        "x": 389.0,
+        "y": 6.0,
+        "z": 204.5
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "MiniCourse410": {
+      "uid": "MiniCourse410",
+      "name": "Break Time! Revver Run",
+      "coordinates": {
+        "x": 370.0,
+        "y": -2.5,
+        "z": 184.5
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "MiniCourse412": {
+      "uid": "MiniCourse412",
+      "name": "Break Time! Lights Out",
+      "coordinates": {
+        "x": 396.0,
+        "y": 6.0,
+        "z": 199.0
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course037": {
+      "uid": "Course037",
+      "name": "Armads on the Roll",
+      "coordinates": {
+        "x": 360.5,
+        "y": -2.5,
+        "z": 229.0
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course042": {
+      "uid": "Course042",
+      "name": "Secrets of Shova Mansion",
+      "coordinates": {
+        "x": 394.0,
+        "y": 7.5,
+        "z": 162.0
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "BadgeCourse318": {
+      "uid": "BadgeCourse318",
+      "name": "Expert Badge Challenge Invisibility I",
+      "coordinates": {
+        "x": 384.5,
+        "y": 12.5,
+        "z": 152.5
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "BadgeCourse309": {
+      "uid": "BadgeCourse309",
+      "name": "Badge Challenge Crouching High Jump II",
+      "coordinates": {
+        "x": 337.0,
+        "y": 6.0,
+        "z": 177.0
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "MiniCourse415": {
+      "uid": "MiniCourse415",
+      "name": "Break Time! Bouncy Tunes",
+      "coordinates": {
+        "x": 350.0,
+        "y": 6.0,
+        "z": 182.0
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "MiniCourse409": {
+      "uid": "MiniCourse409",
+      "name": "Break Time! Raise the Stage",
+      "coordinates": {
+        "x": 397.5,
+        "y": 0.5,
+        "z": 182.0
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "MiniCourse413": {
+      "uid": "MiniCourse413",
+      "name": "Break Time! Treasure Vault",
+      "coordinates": {
+        "x": 380.5,
+        "y": -2.5,
+        "z": 237.5
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "PalaceCourse152": {
+      "uid": "PalaceCourse152",
+      "name": "Sunbaked Desert Palace",
+      "coordinates": {
+        "x": 362.0,
+        "y": 10.5,
+        "z": 169.5
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "palace",
+      "isNativeObject": true
+    },
+    "BadgeCourse301": {
+      "uid": "BadgeCourse301",
+      "name": "Badge Challenge Parachute Cap II",
+      "coordinates": {
+        "x": 369.5,
+        "y": -2.5,
+        "z": 212.0
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "HirobaCourse451": {
+      "uid": "HirobaCourse451",
+      "name": "Search Party Pipe Park",
+      "coordinates": {
+        "x": 302.0,
+        "y": -2.5,
+        "z": 190.0
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course039": {
+      "uid": "Course039",
+      "name": "Rolling-Ball Hall",
+      "coordinates": {
+        "x": 377.0,
+        "y": -2.50781,
+        "z": 185.0
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ArenaCourse252": {
+      "uid": "ArenaCourse252",
+      "name": "KO Arena Sunbaked Skirmish",
+      "coordinates": {
+        "x": 374.0,
+        "y": 6.0,
+        "z": 182.0
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course043": {
+      "uid": "Course043",
+      "name": "Ninji Jump Party",
+      "coordinates": {
+        "x": 328.5,
+        "y": -4.5,
+        "z": 183.0
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course041": {
+      "uid": "Course041",
+      "name": "Bloomps of the Desert Skies",
+      "coordinates": {
+        "x": 305.0,
+        "y": 2.96094,
+        "z": 173.0
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course036": {
+      "uid": "Course036",
+      "name": "Valley Fulla Snootles",
+      "coordinates": {
+        "x": 313.5,
+        "y": 7.49219,
+        "z": 162.5
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "WorldMapNpcId05": {
+      "uid": "WorldMapNpcId05",
+      "name": "Badge Shop",
+      "coordinates": {
+        "x": 339.0,
+        "y": 7.5,
+        "z": 152.5
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "shop",
+      "isNativeObject": true
+    },
+    "WorldMapNpcId09": {
+      "uid": "WorldMapNpcId09",
+      "name": "Badge Shop",
+      "coordinates": {
+        "x": 338.0,
+        "y": -4.50848,
+        "z": 209.0
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "shop",
+      "isNativeObject": true
+    },
+    "Course046": {
+      "uid": "Course046",
+      "name": "Upshroom Downshroom",
+      "coordinates": {
+        "x": 220.5,
+        "y": 0.0,
+        "z": -7.5
+      },
+      "layerId": "w5",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "MiniCourse417": {
+      "uid": "MiniCourse417",
+      "name": "Break Time! Trottin' Piranha Plants",
+      "coordinates": {
+        "x": 246.5,
+        "y": -0.5,
+        "z": 3.0
+      },
+      "layerId": "w5",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ShisetsuCourse551": {
+      "uid": "ShisetsuCourse551",
+      "name": "Operation Poplin Rescue",
+      "coordinates": {
+        "x": 251.0,
+        "y": -82.5,
+        "z": 33.5
+      },
+      "layerId": "w5",
+      "dependencyIds": [],
+      "type": "poplin",
+      "isNativeObject": true
+    },
+    "BadgeCourse312": {
+      "uid": "BadgeCourse312",
+      "name": "Badge Challenge Grappling Vine I",
+      "coordinates": {
+        "x": 235.5,
+        "y": -16.5,
+        "z": 30.0
+      },
+      "layerId": "w5",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "MiniCourse414": {
+      "uid": "MiniCourse414",
+      "name": "Break Time! Tumble House",
+      "coordinates": {
+        "x": 210.5,
+        "y": 0.0,
+        "z": 3.5
+      },
+      "layerId": "w5",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ShisetsuCourse550": {
+      "uid": "ShisetsuCourse550",
+      "name": "Loyal Poplin's House",
+      "coordinates": {
+        "x": 250.5,
+        "y": 0.0,
+        "z": -30.5
+      },
+      "layerId": "w5",
+      "dependencyIds": [],
+      "type": "poplin",
+      "isNativeObject": true
+    },
+    "ArenaCourse255": {
+      "uid": "ArenaCourse255",
+      "name": "KO Arena Fungi Funk",
+      "coordinates": {
+        "x": 224.0,
+        "y": -77.0,
+        "z": 18.5
+      },
+      "layerId": "w5",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course047": {
+      "uid": "Course047",
+      "name": "Taily's Toxic Pond",
+      "coordinates": {
+        "x": 231.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "layerId": "w5",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course048": {
+      "uid": "Course048",
+      "name": "Beware of the Rifts",
+      "coordinates": {
+        "x": 194.0,
+        "y": -0.5,
+        "z": 5.0
+      },
+      "layerId": "w5",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course049": {
+      "uid": "Course049",
+      "name": "Light-Switch Mansion",
+      "coordinates": {
+        "x": 234.5,
+        "y": -0.5,
+        "z": 17.0
+      },
+      "layerId": "w5",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course050": {
+      "uid": "Course050",
+      "name": "An Uncharted Area: Wubba Ruins",
+      "coordinates": {
+        "x": 220.5,
+        "y": -8.5,
+        "z": 17.5
+      },
+      "layerId": "w5",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course051": {
+      "uid": "Course051",
+      "name": "A Final Uncharted Area: Poison Ruins",
+      "coordinates": {
+        "x": 217.0,
+        "y": -80.0,
+        "z": 30.0
+      },
+      "layerId": "w5",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course052": {
+      "uid": "Course052",
+      "name": "Another Uncharted Area: Swaying Ruins",
+      "coordinates": {
+        "x": 215.0,
+        "y": -20.5,
+        "z": 34.5
+      },
+      "layerId": "w5",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course057": {
+      "uid": "Course057",
+      "name": "Where the Rrrumbas Rule",
+      "coordinates": {
+        "x": 135.0,
+        "y": -50.0,
+        "z": 18.0
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course058": {
+      "uid": "Course058",
+      "name": "Raarghs in the Ruins",
+      "coordinates": {
+        "x": 144.0,
+        "y": -75.0,
+        "z": 23.5
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "AirshipCourse102": {
+      "uid": "AirshipCourse102",
+      "name": "Deep Magma Bog Flying Battleship",
+      "coordinates": {
+        "x": 99.5,
+        "y": -75.0,
+        "z": 23.5
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "PalaceCourse153": {
+      "uid": "PalaceCourse153",
+      "name": "Deep Magma Bog Palace",
+      "coordinates": {
+        "x": 125.0,
+        "y": -28.0,
+        "z": 1.5
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "palace",
+      "isNativeObject": true
+    },
+    "Course054": {
+      "uid": "Course054",
+      "name": "Pull, Turn, Burn",
+      "coordinates": {
+        "x": 150.5,
+        "y": -101.5,
+        "z": 28.5
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course055": {
+      "uid": "Course055",
+      "name": "Hot-Hot Hot!",
+      "coordinates": {
+        "x": 65.0,
+        "y": -75.0,
+        "z": 23.5
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "BadgeCourse303": {
+      "uid": "BadgeCourse303",
+      "name": "Badge Challenge Floating High Jump II",
+      "coordinates": {
+        "x": 95.0,
+        "y": -48.5,
+        "z": 3.0
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "BadgeCourse307": {
+      "uid": "BadgeCourse307",
+      "name": "Badge Challenge Boosting Spin Jump II",
+      "coordinates": {
+        "x": 150.0,
+        "y": -50.0,
+        "z": 5.0
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "BadgeCourse313": {
+      "uid": "BadgeCourse313",
+      "name": "Badge Challenge Grappling Vine II",
+      "coordinates": {
+        "x": 178.5,
+        "y": -104.5,
+        "z": 28.5
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "BadgeCourse315": {
+      "uid": "BadgeCourse315",
+      "name": "Expert Badge Challenge Spring Feet II",
+      "coordinates": {
+        "x": 41.0,
+        "y": -107.5,
+        "z": 28.5
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "BadgeCourse319": {
+      "uid": "BadgeCourse319",
+      "name": "Expert Badge Challenge Invisibility II",
+      "coordinates": {
+        "x": 41.0,
+        "y": -106.0,
+        "z": 12.5
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "BadgeCourse317": {
+      "uid": "BadgeCourse317",
+      "name": "Expert Badge Challenge Jet Run II",
+      "coordinates": {
+        "x": 54.0,
+        "y": -104.5,
+        "z": 12.5
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course059": {
+      "uid": "Course059",
+      "name": "Wavy Ride through the Magma Tube",
+      "coordinates": {
+        "x": 67.0,
+        "y": -104.5,
+        "z": 28.5
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "HirobaCourse453": {
+      "uid": "HirobaCourse453",
+      "name": "Search Party Item Park",
+      "coordinates": {
+        "x": 85.0,
+        "y": -30.0,
+        "z": -0.5
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "MiniCourse416": {
+      "uid": "MiniCourse416",
+      "name": "Break Time! Hot-Hot Rocks",
+      "coordinates": {
+        "x": 52.5,
+        "y": -73.0,
+        "z": 23.5
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course053": {
+      "uid": "Course053",
+      "name": "Dragon Boneyard",
+      "coordinates": {
+        "x": 54.0,
+        "y": -106.0,
+        "z": 28.5
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ArenaCourse253": {
+      "uid": "ArenaCourse253",
+      "name": "KO Arena Magma Flare-Up",
+      "coordinates": {
+        "x": 93.5,
+        "y": -104.0,
+        "z": 28.5
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "ShisetsuCourse560": {
+      "uid": "ShisetsuCourse560",
+      "name": "Deep Magma Bog Observatory #1",
+      "coordinates": {
+        "x": 95.0,
+        "y": 30.0,
+        "z": 8.0
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "poplin",
+      "isNativeObject": true
+    },
+    "ShisetsuCourse561": {
+      "uid": "ShisetsuCourse561",
+      "name": "Deep Magma Bog Observatory #2",
+      "coordinates": {
+        "x": 62.0,
+        "y": -48.0,
+        "z": 3.0
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "poplin",
+      "isNativeObject": true
+    },
+    "ShisetsuCourse562": {
+      "uid": "ShisetsuCourse562",
+      "name": "Deep Magma Bog Observatory #3",
+      "coordinates": {
+        "x": 65.0,
+        "y": -73.0,
+        "z": 10.0
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "poplin",
+      "isNativeObject": true
+    },
+    "ShisetsuCourse563": {
+      "uid": "ShisetsuCourse563",
+      "name": "Deep Magma Bog Observatory #4",
+      "coordinates": {
+        "x": 150.5,
+        "y": -100.0,
+        "z": 13.0
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "poplin",
+      "isNativeObject": true
+    },
+    "Course062": {
+      "uid": "Course062",
+      "name": "Missile Meg Mayhem",
+      "coordinates": {
+        "x": 350.0,
+        "y": 96.5,
+        "z": 367.0
+      },
+      "layerId": "w7",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course063": {
+      "uid": "Course063",
+      "name": "High-Voltage Gauntlet",
+      "coordinates": {
+        "x": 368.0,
+        "y": 99.5,
+        "z": 351.0
+      },
+      "layerId": "w7",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course061": {
+      "uid": "Course061",
+      "name": "Evade the Seeker Bullet Bills!",
+      "coordinates": {
+        "x": 332.0,
+        "y": 99.5,
+        "z": 351.0
+      },
+      "layerId": "w7",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "Course064": {
+      "uid": "Course064",
+      "name": "KnuckleFest: Bowser's Blazing Beats",
+      "coordinates": {
+        "x": 350.0,
+        "y": 102.5,
+        "z": 334.5
+      },
+      "layerId": "w7",
+      "dependencyIds": [],
+      "type": "level",
+      "isNativeObject": true
+    },
+    "KuppaBossCourse290": {
+      "uid": "KuppaBossCourse290",
+      "name": "The Final Battle! Bowser's Rage Stage",
+      "coordinates": {
+        "x": 350.0,
+        "y": 115.015,
+        "z": 259.0
+      },
+      "layerId": "w7",
+      "dependencyIds": [],
+      "type": "level",
       "isNativeObject": true
     }
   }
