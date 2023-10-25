@@ -1,0 +1,340 @@
+{
+  "name": "Hundo",
+  "category": "100%",
+  "version": "1.0",
+  "author": "Abahbob",
+  "game": {
+    "name": "Super Mario Bros. Wonder",
+    "layers": {
+      "w1": {
+        "name": "w1",
+        "baseImagePath": "/maps/w1.png"
+      },
+      "w2": {
+        "name": "w2",
+        "baseImagePath": "/maps/w2.png"
+      },
+      "w3": {
+        "name": "w3",
+        "baseImagePath": "/maps/w3.png"
+      },
+      "w4": {
+        "name": "w4",
+        "baseImagePath": "/maps/w4.png"
+      },
+      "w5": {
+        "name": "w5",
+        "baseImagePath": "/maps/w5.png"
+      },
+      "w6": {
+        "name": "w6",
+        "baseImagePath": "/maps/w6.png"
+      },
+      "hub": {
+        "name": "hub",
+        "baseImagePath": "/maps/hub.png"
+      },
+      "special": {
+        "name": "special",
+        "baseImagePath": "/maps/special.png"
+      }
+    },
+    "icons": {
+      "10coin": "https://raw.githubusercontent.com/totum-tools/wonder-speedrun-routes/master/icons/10coin.png",
+      "pipe": "https://raw.githubusercontent.com/totum-tools/wonder-speedrun-routes/master/icons/pipe.png",
+      "wonderflower": "https://raw.githubusercontent.com/totum-tools/wonder-speedrun-routes/master/icons/wonderflower.png",
+      "block": "https://raw.githubusercontent.com/totum-tools/wonder-speedrun-routes/master/icons/block.png",
+      "level": "https://raw.githubusercontent.com/totum-tools/wonder-speedrun-routes/master/icons/level.png",
+      "shop": "https://raw.githubusercontent.com/totum-tools/wonder-speedrun-routes/master/icons/shop.png"
+    }
+  },
+  "branches": [],
+  "things": {
+    "Course10": {
+      "uid": "Course10",
+      "name": "Course10",
+      "coordinates": {
+        "x": 96.5,
+        "y": -11.0,
+        "z": 27.25
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course11": {
+      "uid": "Course11",
+      "name": "Course11",
+      "coordinates": {
+        "x": 82.5,
+        "y": 5.5,
+        "z": -16.0
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course12": {
+      "uid": "Course12",
+      "name": "Course12",
+      "coordinates": {
+        "x": 90.0,
+        "y": 10.0,
+        "z": -32.5
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course13": {
+      "uid": "Course13",
+      "name": "Course13",
+      "coordinates": {
+        "x": 74.5,
+        "y": 13.0,
+        "z": -41.5
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course2": {
+      "uid": "Course2",
+      "name": "Course2",
+      "coordinates": {
+        "x": -28.5,
+        "y": -0.25,
+        "z": 110.25
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course20": {
+      "uid": "Course20",
+      "name": "Course20",
+      "coordinates": {
+        "x": 31.5,
+        "y": 4.0,
+        "z": -52.5
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course21": {
+      "uid": "Course21",
+      "name": "Course21",
+      "coordinates": {
+        "x": 86.5,
+        "y": -0.72937,
+        "z": 16.0
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course22": {
+      "uid": "Course22",
+      "name": "Course22",
+      "coordinates": {
+        "x": 79.0,
+        "y": 18.5,
+        "z": -56.0
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course3": {
+      "uid": "Course3",
+      "name": "Course3",
+      "coordinates": {
+        "x": -15.5,
+        "y": 2.0,
+        "z": 106.5
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course30": {
+      "uid": "Course30",
+      "name": "Course30",
+      "coordinates": {
+        "x": 96.5,
+        "y": 3.0,
+        "z": 8.0
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course4": {
+      "uid": "Course4",
+      "name": "Course4",
+      "coordinates": {
+        "x": -13.5,
+        "y": 4.0,
+        "z": 95.5
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course40": {
+      "uid": "Course40",
+      "name": "Course40",
+      "coordinates": {
+        "x": 93.0,
+        "y": -11.0,
+        "z": 40.5
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course5": {
+      "uid": "Course5",
+      "name": "Course5",
+      "coordinates": {
+        "x": 25.5,
+        "y": 2.0,
+        "z": 9.0
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course50": {
+      "uid": "Course50",
+      "name": "Course50",
+      "coordinates": {
+        "x": 38.5,
+        "y": 2.0,
+        "z": 6.5
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course51": {
+      "uid": "Course51",
+      "name": "Course51",
+      "coordinates": {
+        "x": 41.0,
+        "y": 1.5,
+        "z": 21.0
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course52": {
+      "uid": "Course52",
+      "name": "Course52",
+      "coordinates": {
+        "x": 22.5,
+        "y": 3.5,
+        "z": -54.5
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course6": {
+      "uid": "Course6",
+      "name": "Course6",
+      "coordinates": {
+        "x": 33.5,
+        "y": 1.5,
+        "z": 21.5
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course60": {
+      "uid": "Course60",
+      "name": "Course60",
+      "coordinates": {
+        "x": -1.0,
+        "y": 2.0,
+        "z": 14.0
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course65": {
+      "uid": "Course65",
+      "name": "Course65",
+      "coordinates": {
+        "x": 23.0,
+        "y": 2.0,
+        "z": 16.0
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course7": {
+      "uid": "Course7",
+      "name": "Course7",
+      "coordinates": {
+        "x": 61.0,
+        "y": 2.0,
+        "z": 8.0
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course8": {
+      "uid": "Course8",
+      "name": "Course8",
+      "coordinates": {
+        "x": 17.25,
+        "y": 3.0,
+        "z": -47.0
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    },
+    "Course9": {
+      "uid": "Course9",
+      "name": "Course9",
+      "coordinates": {
+        "x": 83.5,
+        "y": -11.5,
+        "z": 41.0
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "Thing",
+      "isNativeObject": true
+    }
+  }
+}
