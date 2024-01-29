@@ -148,7 +148,9 @@
       "wonderflower": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/icons/wonderflower.png",
       "block": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/icons/block.png",
       "level": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/icons/level.png",
-      "shop": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/icons/shop.png"
+      "shop": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/icons/shop.png",
+      "palace": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/icons/palace.png",
+      "poplin": "https://raw.githubusercontent.com/totum-tools/smbw-speedrun-routes/master/icons/poplin.png"
     }
   },
   "branches": [],
@@ -164,6 +166,7 @@
       "layerId": "hub",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ShisetsuCourse510": {
@@ -177,6 +180,7 @@
       "layerId": "hub",
       "dependencyIds": [],
       "type": "poplin",
+      "icon": "poplin",
       "isNativeObject": true
     },
     "Course056": {
@@ -190,6 +194,7 @@
       "layerId": "hub",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course012": {
@@ -203,6 +208,7 @@
       "layerId": "hub",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course016": {
@@ -216,6 +222,7 @@
       "layerId": "hub",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ArenaCourse254": {
@@ -229,6 +236,7 @@
       "layerId": "hub",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "RaceCourse201": {
@@ -242,6 +250,7 @@
       "layerId": "hub",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse310": {
@@ -255,6 +264,7 @@
       "layerId": "hub",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse311": {
@@ -268,6 +278,7 @@
       "layerId": "hub",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse306": {
@@ -281,6 +292,7 @@
       "layerId": "hub",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course014": {
@@ -294,6 +306,7 @@
       "layerId": "hub",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "OtakaraCourse460": {
@@ -307,6 +320,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "AirshipCourse101": {
@@ -320,6 +334,7 @@
       "layerId": "hub",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course015": {
@@ -333,6 +348,7 @@
       "layerId": "hub",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course017": {
@@ -346,6 +362,7 @@
       "layerId": "hub",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "RaceCourse202": {
@@ -359,6 +376,7 @@
       "layerId": "hub",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course019": {
@@ -372,32 +390,48 @@
       "layerId": "hub",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
-    "WorldMapNpcId02": {
-      "uid": "WorldMapNpcId02",
+    "hub-WorldMapNpcId02": {
+      "uid": "hub-WorldMapNpcId02",
       "name": "Badge Shop",
       "coordinates": {
-        "x": 46.5,
-        "y": 2.5,
-        "z": -0.5
+        "x": 205.0,
+        "y": 1.5,
+        "z": 194.0
       },
-      "layerId": "w1",
+      "layerId": "hub",
       "dependencyIds": [],
       "type": "shop",
+      "icon": "shop",
       "isNativeObject": true
     },
-    "WorldMapNpcId04": {
-      "uid": "WorldMapNpcId04",
+    "hub-WorldMapNpcId04": {
+      "uid": "hub-WorldMapNpcId04",
       "name": "Badge Shop",
       "coordinates": {
-        "x": 11.5,
-        "y": 44.0,
-        "z": 79.0
+        "x": 310.5,
+        "y": 1.27,
+        "z": 225.5
       },
-      "layerId": "w2",
+      "layerId": "hub",
       "dependencyIds": [],
       "type": "shop",
+      "icon": "shop",
+      "isNativeObject": true
+    },
+    "Pipe3370718468": {
+      "uid": "Pipe3370718468",
+      "name": "Pipe",
+      "coordinates": {
+        "x": 185.75,
+        "y": 7.5,
+        "z": 293.5
+      },
+      "layerId": "hub",
+      "dependencyIds": [],
+      "type": "pipe",
       "isNativeObject": true
     },
     "ChampionshipCourse850": {
@@ -411,6 +445,7 @@
       "layerId": "special",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ChampionshipCourse859": {
@@ -424,6 +459,7 @@
       "layerId": "special",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ChampionshipCourse851": {
@@ -437,6 +473,7 @@
       "layerId": "special",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ShisetsuCourse590": {
@@ -450,6 +487,7 @@
       "layerId": "special",
       "dependencyIds": [],
       "type": "poplin",
+      "icon": "poplin",
       "isNativeObject": true
     },
     "ChampionshipCourse852": {
@@ -463,6 +501,7 @@
       "layerId": "special",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ChampionshipCourse853": {
@@ -476,6 +515,7 @@
       "layerId": "special",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ChampionshipCourse854": {
@@ -489,6 +529,7 @@
       "layerId": "special",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ChampionshipCourse855": {
@@ -502,6 +543,7 @@
       "layerId": "special",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ChampionshipCourse856": {
@@ -515,6 +557,7 @@
       "layerId": "special",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ChampionshipCourse857": {
@@ -528,6 +571,7 @@
       "layerId": "special",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ChampionshipCourse858": {
@@ -541,6 +585,21 @@
       "layerId": "special",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
+      "isNativeObject": true
+    },
+    "special-WorldMapNpcId02": {
+      "uid": "special-WorldMapNpcId02",
+      "name": "Badge Shop",
+      "coordinates": {
+        "x": -8.5,
+        "y": 15.0,
+        "z": 5.5
+      },
+      "layerId": "special",
+      "dependencyIds": [],
+      "type": "shop",
+      "icon": "shop",
       "isNativeObject": true
     },
     "Course008": {
@@ -554,6 +613,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course009": {
@@ -567,6 +627,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course006": {
@@ -580,6 +641,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course010": {
@@ -593,6 +655,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course001": {
@@ -606,6 +669,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse300": {
@@ -619,6 +683,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse304": {
@@ -632,6 +697,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse316": {
@@ -645,6 +711,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course002": {
@@ -658,6 +725,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "PalaceCourse150": {
@@ -671,6 +739,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "palace",
+      "icon": "palace",
       "isNativeObject": true
     },
     "Course004": {
@@ -684,6 +753,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ArenaCourse250": {
@@ -697,6 +767,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course005": {
@@ -710,6 +781,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse418": {
@@ -723,6 +795,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse411": {
@@ -736,6 +809,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse400": {
@@ -749,6 +823,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course003": {
@@ -762,6 +837,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ShisetsuCourse500": {
@@ -775,6 +851,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "poplin",
+      "icon": "poplin",
       "isNativeObject": true
     },
     "RaceCourse200": {
@@ -788,6 +865,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course013": {
@@ -801,6 +879,7 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course007": {
@@ -814,6 +893,60 @@
       "layerId": "w1",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
+      "isNativeObject": true
+    },
+    "w1-WorldMapNpcId02": {
+      "uid": "w1-WorldMapNpcId02",
+      "name": "Badge Shop",
+      "coordinates": {
+        "x": 46.5,
+        "y": 2.5,
+        "z": -0.5
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "shop",
+      "icon": "shop",
+      "isNativeObject": true
+    },
+    "Pipe368234895": {
+      "uid": "Pipe368234895",
+      "name": "Pipe",
+      "coordinates": {
+        "x": 103.0,
+        "y": -11.0,
+        "z": 22.0
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "pipe",
+      "isNativeObject": true
+    },
+    "Pipe2691963427": {
+      "uid": "Pipe2691963427",
+      "name": "Pipe",
+      "coordinates": {
+        "x": 35.5,
+        "y": 4.0,
+        "z": -60.5
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "pipe",
+      "isNativeObject": true
+    },
+    "Pipe3864504692": {
+      "uid": "Pipe3864504692",
+      "name": "Pipe",
+      "coordinates": {
+        "x": -15.5,
+        "y": -0.25,
+        "z": 119.0
+      },
+      "layerId": "w1",
+      "dependencyIds": [],
+      "type": "pipe",
       "isNativeObject": true
     },
     "Course020": {
@@ -827,6 +960,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course027": {
@@ -840,6 +974,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "PalaceCourse151": {
@@ -853,6 +988,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "palace",
+      "icon": "palace",
       "isNativeObject": true
     },
     "MiniCourse402": {
@@ -866,6 +1002,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "HirobaCourse450": {
@@ -879,6 +1016,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse403": {
@@ -892,6 +1030,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse401": {
@@ -905,6 +1044,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse302": {
@@ -918,6 +1058,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "AirshipCourse100": {
@@ -931,6 +1072,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course025": {
@@ -944,6 +1086,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ShisetsuCourse520": {
@@ -957,6 +1100,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "poplin",
+      "icon": "poplin",
       "isNativeObject": true
     },
     "Course022": {
@@ -970,6 +1114,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse305": {
@@ -983,6 +1128,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ArenaCourse251": {
@@ -996,6 +1142,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse314": {
@@ -1009,6 +1156,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course026": {
@@ -1022,6 +1170,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course021": {
@@ -1035,6 +1184,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course024": {
@@ -1048,6 +1198,7 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course023": {
@@ -1061,19 +1212,48 @@
       "layerId": "w2",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
-    "WorldMapNpcId03": {
-      "uid": "WorldMapNpcId03",
+    "w2-WorldMapNpcId03": {
+      "uid": "w2-WorldMapNpcId03",
       "name": "Badge Shop",
       "coordinates": {
-        "x": 175.0,
-        "y": -73.0,
-        "z": 11.0
+        "x": 15.5,
+        "y": 77.0,
+        "z": 27.0
       },
-      "layerId": "w6",
+      "layerId": "w2",
       "dependencyIds": [],
       "type": "shop",
+      "icon": "shop",
+      "isNativeObject": true
+    },
+    "w2-WorldMapNpcId04": {
+      "uid": "w2-WorldMapNpcId04",
+      "name": "Badge Shop",
+      "coordinates": {
+        "x": 11.5,
+        "y": 44.0,
+        "z": 79.0
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "shop",
+      "icon": "shop",
+      "isNativeObject": true
+    },
+    "Pipe3862349213": {
+      "uid": "Pipe3862349213",
+      "name": "Pipe",
+      "coordinates": {
+        "x": -30.5,
+        "y": 27.5,
+        "z": 110.0
+      },
+      "layerId": "w2",
+      "dependencyIds": [],
+      "type": "pipe",
       "isNativeObject": true
     },
     "Course032": {
@@ -1087,6 +1267,7 @@
       "layerId": "w3",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course034": {
@@ -1100,6 +1281,7 @@
       "layerId": "w3",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse308": {
@@ -1113,6 +1295,7 @@
       "layerId": "w3",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course030": {
@@ -1126,6 +1309,7 @@
       "layerId": "w3",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse404": {
@@ -1139,6 +1323,7 @@
       "layerId": "w3",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse407": {
@@ -1152,6 +1337,7 @@
       "layerId": "w3",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse405": {
@@ -1165,6 +1351,7 @@
       "layerId": "w3",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course035": {
@@ -1178,6 +1365,7 @@
       "layerId": "w3",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course031": {
@@ -1191,6 +1379,7 @@
       "layerId": "w3",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course033": {
@@ -1204,6 +1393,7 @@
       "layerId": "w3",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ShisetsuCourse530": {
@@ -1217,6 +1407,7 @@
       "layerId": "w3",
       "dependencyIds": [],
       "type": "poplin",
+      "icon": "poplin",
       "isNativeObject": true
     },
     "ShisetsuCourse531": {
@@ -1230,6 +1421,7 @@
       "layerId": "w3",
       "dependencyIds": [],
       "type": "poplin",
+      "icon": "poplin",
       "isNativeObject": true
     },
     "HirobaCourse452": {
@@ -1243,6 +1435,7 @@
       "layerId": "w3",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse406": {
@@ -1256,10 +1449,11 @@
       "layerId": "w3",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
-    "WorldMapNpcId07": {
-      "uid": "WorldMapNpcId07",
+    "w3-WorldMapNpcId07": {
+      "uid": "w3-WorldMapNpcId07",
       "name": "Badge Shop",
       "coordinates": {
         "x": -3.0,
@@ -1269,6 +1463,20 @@
       "layerId": "w3",
       "dependencyIds": [],
       "type": "shop",
+      "icon": "shop",
+      "isNativeObject": true
+    },
+    "Pipe4253701882": {
+      "uid": "Pipe4253701882",
+      "name": "Pipe",
+      "coordinates": {
+        "x": 4.0,
+        "y": 3.0,
+        "z": -13.0
+      },
+      "layerId": "w3",
+      "dependencyIds": [],
+      "type": "pipe",
       "isNativeObject": true
     },
     "Course038": {
@@ -1282,6 +1490,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course044": {
@@ -1295,6 +1504,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ShisetsuCourse540": {
@@ -1308,6 +1518,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "poplin",
+      "icon": "poplin",
       "isNativeObject": true
     },
     "MiniCourse408": {
@@ -1321,6 +1532,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course040": {
@@ -1334,6 +1546,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse410": {
@@ -1347,6 +1560,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse412": {
@@ -1360,6 +1574,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course037": {
@@ -1373,6 +1588,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course042": {
@@ -1386,6 +1602,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse318": {
@@ -1399,6 +1616,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse309": {
@@ -1412,6 +1630,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse415": {
@@ -1425,6 +1644,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse409": {
@@ -1438,6 +1658,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse413": {
@@ -1451,6 +1672,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "PalaceCourse152": {
@@ -1464,6 +1686,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "palace",
+      "icon": "palace",
       "isNativeObject": true
     },
     "BadgeCourse301": {
@@ -1477,6 +1700,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "HirobaCourse451": {
@@ -1490,6 +1714,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course039": {
@@ -1503,6 +1728,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ArenaCourse252": {
@@ -1516,6 +1742,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course043": {
@@ -1529,6 +1756,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course041": {
@@ -1542,6 +1770,7 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course036": {
@@ -1555,10 +1784,11 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
-    "WorldMapNpcId05": {
-      "uid": "WorldMapNpcId05",
+    "w4-WorldMapNpcId05": {
+      "uid": "w4-WorldMapNpcId05",
       "name": "Badge Shop",
       "coordinates": {
         "x": 339.0,
@@ -1568,10 +1798,11 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "shop",
+      "icon": "shop",
       "isNativeObject": true
     },
-    "WorldMapNpcId09": {
-      "uid": "WorldMapNpcId09",
+    "w4-WorldMapNpcId09": {
+      "uid": "w4-WorldMapNpcId09",
       "name": "Badge Shop",
       "coordinates": {
         "x": 338.0,
@@ -1581,6 +1812,33 @@
       "layerId": "w4",
       "dependencyIds": [],
       "type": "shop",
+      "icon": "shop",
+      "isNativeObject": true
+    },
+    "Pipe936248503": {
+      "uid": "Pipe936248503",
+      "name": "Pipe",
+      "coordinates": {
+        "x": 384.5,
+        "y": -2.5,
+        "z": 179.5
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "pipe",
+      "isNativeObject": true
+    },
+    "Pipe4161086143": {
+      "uid": "Pipe4161086143",
+      "name": "Pipe",
+      "coordinates": {
+        "x": 373.5,
+        "y": 7.5,
+        "z": 153.5
+      },
+      "layerId": "w4",
+      "dependencyIds": [],
+      "type": "pipe",
       "isNativeObject": true
     },
     "Course046": {
@@ -1594,6 +1852,7 @@
       "layerId": "w5",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse417": {
@@ -1607,6 +1866,7 @@
       "layerId": "w5",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ShisetsuCourse551": {
@@ -1620,6 +1880,7 @@
       "layerId": "w5",
       "dependencyIds": [],
       "type": "poplin",
+      "icon": "poplin",
       "isNativeObject": true
     },
     "BadgeCourse312": {
@@ -1633,6 +1894,7 @@
       "layerId": "w5",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse414": {
@@ -1646,6 +1908,7 @@
       "layerId": "w5",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ShisetsuCourse550": {
@@ -1659,6 +1922,7 @@
       "layerId": "w5",
       "dependencyIds": [],
       "type": "poplin",
+      "icon": "poplin",
       "isNativeObject": true
     },
     "ArenaCourse255": {
@@ -1672,6 +1936,7 @@
       "layerId": "w5",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course047": {
@@ -1685,6 +1950,7 @@
       "layerId": "w5",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course048": {
@@ -1698,6 +1964,7 @@
       "layerId": "w5",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course049": {
@@ -1711,6 +1978,7 @@
       "layerId": "w5",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course050": {
@@ -1724,6 +1992,7 @@
       "layerId": "w5",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course051": {
@@ -1737,6 +2006,7 @@
       "layerId": "w5",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course052": {
@@ -1750,6 +2020,34 @@
       "layerId": "w5",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
+      "isNativeObject": true
+    },
+    "w5-WorldMapNpcId03": {
+      "uid": "w5-WorldMapNpcId03",
+      "name": "Badge Shop",
+      "coordinates": {
+        "x": 196.5,
+        "y": -0.5,
+        "z": 13.5
+      },
+      "layerId": "w5",
+      "dependencyIds": [],
+      "type": "shop",
+      "icon": "shop",
+      "isNativeObject": true
+    },
+    "Pipe4148519796": {
+      "uid": "Pipe4148519796",
+      "name": "Pipe",
+      "coordinates": {
+        "x": 266.5,
+        "y": -0.5,
+        "z": -2.0
+      },
+      "layerId": "w5",
+      "dependencyIds": [],
+      "type": "pipe",
       "isNativeObject": true
     },
     "Course057": {
@@ -1763,6 +2061,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course058": {
@@ -1776,6 +2075,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "AirshipCourse102": {
@@ -1789,6 +2089,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "PalaceCourse153": {
@@ -1802,6 +2103,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "palace",
+      "icon": "palace",
       "isNativeObject": true
     },
     "Course054": {
@@ -1815,6 +2117,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course055": {
@@ -1828,6 +2131,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse303": {
@@ -1841,6 +2145,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse307": {
@@ -1854,6 +2159,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse313": {
@@ -1867,6 +2173,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse315": {
@@ -1880,6 +2187,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse319": {
@@ -1893,6 +2201,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "BadgeCourse317": {
@@ -1906,6 +2215,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course059": {
@@ -1919,6 +2229,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "HirobaCourse453": {
@@ -1932,6 +2243,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "MiniCourse416": {
@@ -1945,6 +2257,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course053": {
@@ -1958,6 +2271,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ArenaCourse253": {
@@ -1971,6 +2285,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "ShisetsuCourse560": {
@@ -1984,6 +2299,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "poplin",
+      "icon": "poplin",
       "isNativeObject": true
     },
     "ShisetsuCourse561": {
@@ -1997,6 +2313,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "poplin",
+      "icon": "poplin",
       "isNativeObject": true
     },
     "ShisetsuCourse562": {
@@ -2010,6 +2327,7 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "poplin",
+      "icon": "poplin",
       "isNativeObject": true
     },
     "ShisetsuCourse563": {
@@ -2023,6 +2341,34 @@
       "layerId": "w6",
       "dependencyIds": [],
       "type": "poplin",
+      "icon": "poplin",
+      "isNativeObject": true
+    },
+    "w6-WorldMapNpcId03": {
+      "uid": "w6-WorldMapNpcId03",
+      "name": "Badge Shop",
+      "coordinates": {
+        "x": 175.0,
+        "y": -73.0,
+        "z": 11.0
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "shop",
+      "icon": "shop",
+      "isNativeObject": true
+    },
+    "Pipe493990823": {
+      "uid": "Pipe493990823",
+      "name": "Pipe",
+      "coordinates": {
+        "x": 115.5,
+        "y": -11.5,
+        "z": 13.5
+      },
+      "layerId": "w6",
+      "dependencyIds": [],
+      "type": "pipe",
       "isNativeObject": true
     },
     "Course062": {
@@ -2036,6 +2382,7 @@
       "layerId": "w7",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course063": {
@@ -2049,6 +2396,7 @@
       "layerId": "w7",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course061": {
@@ -2062,6 +2410,7 @@
       "layerId": "w7",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "Course064": {
@@ -2075,6 +2424,7 @@
       "layerId": "w7",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     },
     "KuppaBossCourse290": {
@@ -2088,6 +2438,7 @@
       "layerId": "w7",
       "dependencyIds": [],
       "type": "level",
+      "icon": "level",
       "isNativeObject": true
     }
   }
